@@ -10,9 +10,3 @@ services:
       MYSQL_DATABASE: employees
       MYSQL_USER: user
       MYSQL_PASSWORD: password
-    networks:
-      - app-tier
-
-networks:
-  app-tier:
-    driver: bridge
